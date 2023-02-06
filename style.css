@@ -1,0 +1,21 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    width: max(500px, 40%);
+    aspect-ratio: 1 / 1;
+    border: 15px solid rgb(4, 62, 149);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px rgb(128, 120, 120);
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    justify-self: center;
+}
+
+.square {
+    border: 0.01px solid rgb(232, 229, 229);
+}
